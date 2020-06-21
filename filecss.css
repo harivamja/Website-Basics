@@ -17,3 +17,10 @@ td,th{
 tr:nth-child(odd){
     background-color: #dddddd;
 }
+@media screen and (max-width: 600px){
+    body {
+        font-size: small;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: lightcoral;
+    }
+}
